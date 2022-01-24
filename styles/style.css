@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/bg-fixed-3.jpg');
+}
+
+nav{
+    background-color: #29303c;
+    padding: 10px;
+}
+
+#navContainer{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+#navLeft>span{
+    font-size: 30px;
+}
+
+#navRight{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#homePageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#homePageText{
+    padding-top: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 750;
+    font-size: 40px;
+}
+
+#homePageContainer>img{
+    height: 700px;
+}
+
+.clickable:hover{
+    color: #435677;
+    cursor: pointer;
+}
